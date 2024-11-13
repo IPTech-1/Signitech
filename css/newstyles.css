@@ -1,0 +1,71 @@
+/* body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f1f1;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .technology {
+    display: flex;
+    align-items: center;
+  }
+  
+  .technology img {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+  } */
+
+
+  .box-light {cursor: pointer;
+    background: #fff;
+    border-radius: 6px;
+    padding: 16% 5% !important;
+    border: 1px solid #efefef;
+    transition: all .3s ease-in-out;
+    box-shadow: none;
+    height: 180px;
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+}
+
+.box-light:hover {
+  background: #f0f0f0; /* Change background color on hover */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+  transform: translateY(-3px); /* Slightly lift the element */
+}
+
+.text-center{font-family: 'poppins', sans-serif;
+font-size: 14px;
+color: #000;
+line-height: 18px;}
