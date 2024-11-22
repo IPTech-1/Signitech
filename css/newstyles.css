@@ -69,3 +69,135 @@
 font-size: 14px;
 color: #000;
 line-height: 18px;}
+
+.container.bg-light-blue {
+  background-color: #d1d5d940; /* Light blue shade */
+  border-radius: 10px;
+  padding: 40px; /* Adds spacing inside the container */
+}
+
+/* Ensure equal height for cards */
+.card {
+  min-height: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-radius: 0 !important;
+}
+
+/* Ensure all card rows align */
+.row > .col-md-3 {
+  display: flex;
+  flex-grow: 1;
+}
+
+/* Hover effect */
+.card-ho:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Limit image size for consistency */
+.card img {
+  height: 60px;
+  width: auto;
+  margin-bottom: 20px;
+  object-fit: contain;
+}
+
+
+.card-title {
+  min-height: 3rem; /* Ensures the title's space is uniform across all cards */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  background-color: #f8f9fa; 
+  transition: background-color 0.3s ease; 
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+} 
+
+
+.custom-card {
+    color: #f8f9fa; ; /* Ensures text is readable */
+}
+
+
+#partnersCarousel {
+  background-color: white;
+  padding: 20px 0;
+  position: relative;
+}
+
+#partnersCarousel img {
+  max-height: 50px;
+  object-fit: contain;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: 50px;
+}
+
+.carousel-inner {
+  display: flex;
+  align-items: center;
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.partners-section {
+  text-align: center;
+  padding: 50px 0;
+}
+.partners-section h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+.partners-section p {
+  font-size: 1rem;
+  color: gray;
+  margin-bottom: 30px;
+}
+.carousel-item img {
+  max-height: 100px;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+
+.carousel-control-prev, .carousel-control-next {
+  width: 50px;
+  position: absolute; /* Absolute positioning */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%); /* Adjust vertical alignment */
+}
+
+.carousel-control-prev {
+  left: 0; /* Position left button to the left edge */
+}
+
+
+.carousel-control-next {
+  right: 0; /* Position right button to the right edge */
+}
+
+#partnersCarousel .carousel-control-prev,
+#partnersCarousel .carousel-control-next {
+  display: none; /* Hides the buttons */
+}
